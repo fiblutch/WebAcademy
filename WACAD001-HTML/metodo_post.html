@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Instituto de Computação</title>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <h1> Instituto de Computação </h1>
+    <form action="processa" method="post"> 
+
+        <label for="nome" > Nome Completo: </label>
+        <input id="nome" type="text" name="nome" /> <br />
+
+        <label for="email" > Email: </label>
+        <input id="email" type="text" name="email" /> <br />
+
+        <label for="senha" > Senha: </label>
+        <input id="senha" type="password" name="senha" /> <br />
+
+        <fieldset> 
+            <legend> Escolha o seu curso </legend>
+            <input type="radio" name="curso" value="cc"> Ciência da Computação <br />
+            <input type="radio" name="curso" value="es"> Engenharia de Software <br />
+            <input type="radio" name="curso" value="ec"> Engenharia da Computação <br />
+        </fieldset>
+        <button type="subtmit" > Enviar </button>
+      </form> 
+  </body> 
+</html>
+
+
+
+<!-- disable e readonly > para que o usuário nao edite alguma informação do value
+    maxlength="6" > limite de caracteres para aquele campo 
+    input radio > é utilizado para formulário de multipla escolha (onde só pode selecionar 1)
+    fieldset > caixinha pra organizar o formulário
+    legend > legenda da caixinha
+    label > organiza e destaca -melhora experiencia usuario
+--> 
